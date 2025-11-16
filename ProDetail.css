@@ -78,7 +78,7 @@
         .product-grid{
             justify-items: center;
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(6,1fr);
             padding: 20px;
             overflow: hidden;
             gap: 0;
@@ -107,7 +107,7 @@
             color: red;
         }
 
-        @media (max-width: 1200px){
+        @media (max-width: 1600px){
            .text{
              font-size: 32px;
              color: black;
@@ -136,7 +136,7 @@
             }   
         }
             .product-grid{
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
         }
         @media print {
