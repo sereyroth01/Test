@@ -9,10 +9,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(9, 9, 59);
+    background-color:  rgb(173, 236, 136);
 }
 .card {
-    background-color: green;
+    background-color: rgb(65, 65, 65);
     /* padding:30px 70px; */
     border-radius: 18px;
     text-align: center;
@@ -45,6 +45,7 @@ border-radius: 50%;
 .input-group label{
     display: block;
     padding: 5px;
+    color:white;
 }
 .input-group input{
     padding: 10px ;
@@ -76,6 +77,6 @@ border-radius: 50%;
 }
 .register{
     margin-top: 20px;
-    color:rgb(20, 20, 85)
+    color:white;
 
 }
